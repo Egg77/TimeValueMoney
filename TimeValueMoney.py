@@ -3,9 +3,13 @@
 import math
 from typing import List
 
-"""This class contains several methods corresponding to time value of money formulae. Each method takes a series of known inputs and solves for the value named in the method. In all cases, the last argument is a boolean variable which, when set to True, prompts a string representation of the formula used (incorporating the input values) to be printed to the screen.
+""" This class contains several methods corresponding to time value of money formulae. Each method takes a series of known
+    inputs and solves for the value named in the method. In all cases, the last argument is a boolean variable which, when
+    set to True, prompts a string representation of the formula used (incorporating the input values) to be printed to the 
+    screen.
 
-All methods return float values, meaning these methods can be nested as needed for convenience. In cases of complex nesting, it is recommended to set printTrue = False to avoid needless clutter or confusion.
+    All methods return float values, meaning these methods can be nested as needed for convenience. In cases of complex 
+    nesting, it is recommended to set printTrue = False to avoid needless clutter or confusion.
 """
 
 class TimeValueMoney:
